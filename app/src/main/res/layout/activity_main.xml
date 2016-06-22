@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.androidfung.courtcounter.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/textViewReset"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFBD2D"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+
+        android:showDividers="middle"
+        android:divider="#897d7d"
+        android:dividerPadding="1dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team A"
+                android:id="@+id/textViewTeamA"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/textViewScoreA"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Display2" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="+3 Points"
+                android:id="@+id/textViewPlusThreeA"
+                android:background="#FFFFBD2D"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="+2 Points"
+                android:id="@+id/textViewPlusTwoA"
+                android:background="#FFFFBD2D"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="+1 Point"
+                android:id="@+id/textViewPlusOneA"
+                android:background="#FFFFBD2D"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team B"
+                android:id="@+id/textViewTeamB"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/textViewScoreB"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Display2" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="+3 Points"
+                android:id="@+id/textViewPlusThreeB"
+                android:background="#ffbd2d"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="+2 Points"
+                android:id="@+id/textViewPlusTwoB"
+                android:background="#FFFFBD2D"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="+1 Point"
+                android:id="@+id/textViewPlusOneB"
+                android:background="#FFFFBD2D"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:padding="8dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
